@@ -3,7 +3,7 @@ import bcrypt from 'bcryptjs';
 import {NextFunction, Request, Response} from 'express';
 import CustomError from '../../classes/CustomError';
 import {LoginResponse} from 'hybrid-types/MessageTypes';
-import {getUserByUsername} from '../models/userModel';
+import {getUserByUsername} from '../../models/userModel';
 import {UserWithLevel, TokenContent} from 'hybrid-types/DBTypes';
 
 const login = async (

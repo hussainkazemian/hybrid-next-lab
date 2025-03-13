@@ -1,4 +1,4 @@
-import { getUserByUsername } from '@/app/models/userModel';
+import { getUserByUsername } from '@/models/userModel';
 import { cookies } from 'next/headers';
 import { NextRequest, NextResponse } from 'next/server';
 import CustomError from '../classes/CustomError';
